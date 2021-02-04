@@ -82,7 +82,7 @@ package operators;
 
 public class Bitwise {
 
-  public int bitwiseAnd(int operand1, int operand2) {
+  public int and(int operand1, int operand2) {
     
     // The AND operator compares each binary digit of two integers and gives back 1 if both are 1, otherwise it returns 0.
     
@@ -90,7 +90,7 @@ public class Bitwise {
     return result;
   }
 
-  public int bitwiseOr(int operand1, int operand2) {
+  public int or(int operand1, int operand2) {
     
     // The OR operator compares each binary digit of two integers and gives back 1 if either of them is 1.
     
@@ -98,7 +98,7 @@ public class Bitwise {
     return result;
   }
   
-  public int bitwiseExclusiveOr(int operand1, int operand2) {
+  public int exclusiveOr(int operand1, int operand2) {
     
     // The XOR operator compares each binary digit of two integers and gives back 1 if both the compared bits are different. 
     // This means that if bits of both the integers are 1 or 0 the result will be 0; otherwise, the result will be 1
@@ -107,7 +107,7 @@ public class Bitwise {
     return result;
   }
   
-  public int bitwiseComplement(int operand) {
+  public int complement(int operand) {
     
     // Bitwise Not or Complement operator simply means the negation of each bit of the input value. It takes only one integer and it's equivalent to the ! operator.
     
