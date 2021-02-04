@@ -35,7 +35,7 @@ public class main {
         System.out.println("Bitwise And on 4 and 3: " + bitwise.and(4, 3));
         System.out.println("Bitwise Or on 4 and 3: " + bitwise.or(4, 3));
         System.out.println("Bitwise Exclusive OR on 4 and 3: " + bitwise.exclusiveOr(4, 3));
-        System.out.println("Bitwise complement if 4: " + bitwise.complement(4, 3));
+        System.out.println("Bitwise complement of 4: " + bitwise.complement(4, 3));
         
         // ...
         // ...
