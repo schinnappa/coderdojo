@@ -68,7 +68,7 @@ package operators;
 
     Binary shift operators shift all the bits of the input value either to the left or right based on the shift operator.
 
-    Lets understand with an example of left shifting value 12
+    Lets understand with an example.
     
     Let's take the value 12 as the input value.
 
