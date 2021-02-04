@@ -8,19 +8,19 @@ public class Arithmetic {
         return sum;
     }
 
-    public  int subtraction(int number1, int number2) {
+    public  int subtract(int number1, int number2) {
         int difference;
         difference = number1 - number2;
         return difference;
     }
 
-    public  int multiplication(int number1, int number2) {
+    public  int multiply(int number1, int number2) {
         int product;
         product = number1 * number2;
         return product;
     }
     
-    public  int division(int dividend, int divisor) {
+    public  int divide(int dividend, int divisor) {
         int quotient;
         quotient = dividend / divisor;
         return quotient;
