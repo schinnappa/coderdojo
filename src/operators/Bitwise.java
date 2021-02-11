@@ -111,7 +111,7 @@ public class Bitwise {
     
     // Bitwise Not or Complement operator simply means the negation of each bit of the input value. It takes only one integer and it's equivalent to the ! operator.
     
-    int result = !operand;
+    int result = ~operand;
     return result;
   }
   
