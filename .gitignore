@@ -1,2 +1,4 @@
 # Project exclude paths
-/out/
+pets/out/
+pets/.idea/
+tutorials/.idea/
