@@ -10,11 +10,16 @@ public class PetDetails {
     public static void main(String[] args) {
         search("Labrador Retriever");
         search("German Shepherd");
+        search("xyz");
     }
 
     private static void search(String breed) {
-        Pet lab = info.getPet(breed);
-        System.out.println("Breed: " + lab.breed);
-        System.out.println(("Description: " + lab.description));
+        Pet pet = info.getPet(breed);
+        if (pet != null) {
+            System.out.println("Breed: " + pet.breed);
+            System.out.println(("Description: " + pet.description));
+        } else {
+            System.out.println("Breed " + breed + " information is not available");
+        }
     }
 }
