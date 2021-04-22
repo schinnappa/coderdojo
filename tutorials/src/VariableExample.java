@@ -27,7 +27,7 @@ public class VariableExample {
     /***** END instance variables *****/
 
     public void method1(int parameter1, boolean parameter2, float parameter3) {
-        // parameter1, parameter2 and parameter3 are parameters
+        // parameter1, parameter2 and parameter3 are method parameters
 
         /***** BEGIN local variables *****/
 
